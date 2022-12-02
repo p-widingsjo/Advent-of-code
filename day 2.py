@@ -8,16 +8,10 @@ results = {
     "CX":7, "CY":2, "CZ":6 
 }
 
-
 total_score_p1 = 0
 for round in rounds:
     total_score_p1 += results[round]
 
-
-# DESIRED results
-# Changed the values of the results depending on the rules
-# X = LOSS, Y = DRAW, Z = WIN
-# (got values looking at table above)
 desired_results = {
     "AX":3, "AY":4, "AZ":8, 
     "BX":1, "BY":5, "BZ":9, 
